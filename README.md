@@ -5,19 +5,19 @@ This repo contains pyd and wheels needed for compiling Electrum-Dime binaries on
 
 
 ## Files
-| Version & Type               |OS         |Size       |SHA256 SUM                                                       | GPG    |
-|:---------------------        |:-------   |:----------|:----------                                                      |--------|
-| [pivx_quark_hash 1.2.whl]()  | win x64   | 58981     |2E7D2AC923ACACB6E0467123440F3099C51901476E45B92F21863B7F15941D28 |[SIG]() |
-| [pivx_quark_hash 1.2.whl]()  | win x86   | 65733     |DC2DFD5FEFDF56A715B598A2C7C830F2BDFD5D12CF8CCD0F702FD5A9D2C1BC30 |[SIG]() |
-| [pivx_quark_hash 1.2.whl]()  | lin x86_64| 215721    |4665525D44034C6FC07435D7145CCF6BEE9F50D8F5EA0E2498A4878F7E5C0AB8 |[SIG]() |
-| [quark_hash 1.0.whl]()       | lin x86_64| 214464    |FD5C082C7FE6F92DB98DD7FE42F9F580B91DFC9B120A13E45F48597D114092EC |[SIG]() | 
-| [quark_hash 1.0.whl]()       | win x86   | 64586     |17C9F70CEB8A53208056F029BAF1100A5D21B65450FE376F18C56E69B8800041 |[SIG]() |
-| [quark_hash 1.0.pyd]()       | lin x86_64| 141312    |29699A5A50B2C67B2D4C8E8819BDDE68C6FD03983C6036BE8F728A678BDABF9F |[SIG]() |
+| Version & Type                                                                                                                  |OS         |Size       |SHA256 SUM                                                       | GPG    |
+|:---------------------                                                                                                           |:-------   |:----------|:----------                                                      |--------|
+| [pivx_quark_hash 1.2.whl](https://github.com/dime-coin/dime-pyd-wheels/raw/main/pivx_quark_hash-1.2-cp311-cp311-win_amd64.whl)  | win x64   | 58981     |2E7D2AC923ACACB6E0467123440F3099C51901476E45B92F21863B7F15941D28 |[SIG](https://github.com/dime-coin/dime-pyd-wheels/blob/main/pivx_quark_hash-1.2-cp311-cp311-win_amd64.whl.asc) |
+| [pivx_quark_hash 1.2.whl](https://github.com/dime-coin/dime-pyd-wheels/raw/main/pivx_quark_hash-1.2-cp311-cp311-win32.whl)      | win x86   | 65733     |DC2DFD5FEFDF56A715B598A2C7C830F2BDFD5D12CF8CCD0F702FD5A9D2C1BC30 |[SIG](https://github.com/dime-coin/dime-pyd-wheels/blob/main/pivx_quark_hash-1.2-cp311-cp311-win32.whl.asc) |
+| [pivx_quark_hash 1.2.whl](https://github.com/dime-coin/dime-pyd-wheels/raw/main/pivx_quark_hash-1.2-cp38-cp38-linux_x86_64.whl) | lin x86_64| 215721    |4665525D44034C6FC07435D7145CCF6BEE9F50D8F5EA0E2498A4878F7E5C0AB8 |[SIG](https://github.com/dime-coin/dime-pyd-wheels/blob/main/pivx_quark_hash-1.2-cp38-cp38-linux_x86_64.whl.asc) |
+| [quark_hash 1.0.whl](https://github.com/dime-coin/dime-pyd-wheels/raw/main/quark_hash-1.0-cp38-cp38-linux_x86_64.whl)           | lin x86_64| 214464    |FD5C082C7FE6F92DB98DD7FE42F9F580B91DFC9B120A13E45F48597D114092EC     |[SIG](https://github.com/dime-coin/dime-pyd-wheels/blob/main/quark_hash-1.0-cp38-cp38-linux_x86_64.whl.asc) | 
+| [quark_hash 1.0.whl](https://github.com/dime-coin/dime-pyd-wheels/raw/main/quark_hash-1.0-cp311-cp311-win32.whl)                | win x86   | 64586     |17C9F70CEB8A53208056F029BAF1100A5D21B65450FE376F18C56E69B8800041 |[SIG](https://github.com/dime-coin/dime-pyd-wheels/blob/main/quark_hash-1.0-cp311-cp311-win32.whl.asc) |
+| [quark_hash 1.0.pyd](https://github.com/dime-coin/dime-pyd-wheels/raw/main/quark_hash.cp311-win_amd64.pyd)                      | win x64   | 141312    |29699A5A50B2C67B2D4C8E8819BDDE68C6FD03983C6036BE8F728A678BDABF9F |[SIG](https://github.com/dime-coin/dime-pyd-wheels/blob/main/quark_hash.cp311-win_amd64.pyd.asc) |
 
 
 Wheels Source
 --------
-`pivx_quark_hash 1.2` [GitHub](https://github.com/random-zebra/pivx_quark_hash) commit#`346602f` clone repo and build with python setup.py bdist_wheel. groestl.c does need some modifications for setup.py to run on Windows.
+`pivx_quark_hash 1.2` [GitHub](https://github.com/random-zebra/pivx_quark_hash) commit#`346602f` clone repo and build with python setup.py bdist_wheel. *groestl.c needs some modifications for setup.py to run on Windows.*
 
 `quark_hash 1.0` [PyPi](https://pypi.org/project/quark_hash/) sha256=eb1de478ff1acf810f50d3e227532a937252006eb124afb3da248baaa559b7d4 built with python setup.py bdist_wheel
 
