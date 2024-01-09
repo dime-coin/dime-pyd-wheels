@@ -17,9 +17,13 @@ This repo contains pyd and wheels needed for compiling Electrum-Dime binaries on
 
 Wheels Source
 --------
-`pivx_quark_hash 1.2` [GitHub](https://github.com/random-zebra/pivx_quark_hash) commit#`346602f` clone repo and build with python setup.py bdist_wheel. *groestl.c needs some modifications for setup.py to run on Windows.*
+### pivx_quark_hash 1.2 
 
-`quark_hash 1.0` [PyPi](https://pypi.org/project/quark_hash/) sha256=eb1de478ff1acf810f50d3e227532a937252006eb124afb3da248baaa559b7d4 built with python setup.py bdist_wheel
+[GitHub](https://github.com/random-zebra/pivx_quark_hash) commit#`346602f` clone repo and build with `python setup.py bdist_wheel`. *Note: groestl.c needs some modifications for setup.py to run on Windows.*
+
+### quark_hash 1.0
+
+[PyPi](https://pypi.org/project/quark_hash/) sha256=eb1de478ff1acf810f50d3e227532a937252006eb124afb3da248baaa559b7d4 built with `python setup.py bdist_wheel`.
 
 Verification
 --------
